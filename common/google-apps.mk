@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
 #Core
 PRODUCT_COPY_FILES += \
     vendor/google/common/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk \
+    vendor/google/common/app/GoogleTTS/GoogleTTS.apk:system/app/GoogleTTS/GoogleTTS.apk \
+    vendor/google/common/app/talkback/talkback.apk:system/app/talkback/talkback.apk \
     vendor/google/common/priv-app/ConfigUpdater/ConfigUpdater.apk:system/priv-app/ConfigUpdater/ConfigUpdater.apk \
     vendor/google/common/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk:system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk \
     vendor/google/common/priv-app/GoogleFeedback/GoogleFeedback.apk:system/priv-app/GoogleFeedback/GoogleFeedback.apk \
@@ -50,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/common/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/google/common/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/google/common/app/GoogleHome/GoogleHome.apk:system/app/GoogleHome/GoogleHome.apk \
-    vendor/google/common/app/GoogleTTS/GoogleTTS.apk:system/app/GoogleTTS/GoogleTTS.apk \
     vendor/google/common/app/LatinImeGoogle/LatinImeGoogle.apk:system/app/LatinImeGoogle/LatinImeGoogle.apk \
     vendor/google/common/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so \
     vendor/google/common/app/Maps/Maps.apk:system/app/Maps/Maps.apk \
@@ -60,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/common/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk:system/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk \
     vendor/google/common/app/PrebuiltExchange3Google/PrebuiltExchange3Google.apk:system/app/PrebuiltExchange3Google/PrebuiltExchange3Google.apk \
     vendor/google/common/app/PrebuiltGmail/PrebuiltGmail.apk:system/app/PrebuiltGmail/PrebuiltGmail.apk \
-    vendor/google/common/app/talkback/talkback.apk:system/app/talkback/talkback.apk \
     vendor/google/common/app/Videos/Videos.apk:system/app/Videos/Videos.apk \
     vendor/google/common/app/YouTube/YouTube.apk:system/app/YouTube/YouTube.apk
 
